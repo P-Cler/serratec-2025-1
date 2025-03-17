@@ -15,8 +15,8 @@ Digite a opcào:
 
 programa
 {
-	inteiro opcao
-	cadeia nomes[5]
+	inteiro opcao
+	cadeia nomes[50]
 	funcao inicio()
 	{
 		escreva("Digite a ação que você deseja realizar: \n")
@@ -31,12 +31,14 @@ programa
 		}senao se(opcao==4){
 			Pagamento()
 		}senao se(opcao==0){
+			escreva("Programa Interrompido!!")
+		}senao{
 			escreva("Digite uma opção válida")
 		}
 	}
 	
 	funcao Inserir(){
-		para(inteiro i=0; i < 5; i++){
+		para(inteiro i=0; i < 50; i++){
 			se(nomes[i]==""){
 				escreva("Digite o seu nome: ")
 				leia(nomes[i])
@@ -50,9 +52,10 @@ programa
 	}
 	
 	funcao Listar(){
-		para(inteiro i=0; i < 5; i++){
+		para(inteiro i=0; i < 50; i++){
+			se(nomes[i]!=""){
 			escreva(nomes[i], "\n")
-			
+				}
 		}
 		inicio()
 	}
@@ -61,7 +64,7 @@ programa
 		cadeia removido
 		escreva("Digite o nome da pessoa que você quer remover: ")
 		leia(removido)
-		para(inteiro i=0; i < 5; i++){
+		para(inteiro i=0; i < 50; i++){
 			se(nomes[i]==removido){
 				escreva("O usuario ", nomes[i],  " foi removido \n")
 				nomes[i]=""
@@ -75,7 +78,7 @@ programa
 		inteiro totalPessoas=0
 		escreva("O valor total a ser pago é: R$")
 		
-		para(inteiro i=0; i < 5; i++){
+		para(inteiro i=0; i < 50; i++){
 			se(nomes[i]!=""){
 				totalPessoas++
 			}
@@ -91,7 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1186; 
+ * @POSICAO-CURSOR = 1021; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
