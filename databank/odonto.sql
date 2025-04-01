@@ -117,6 +117,23 @@ INSERT INTO consulta (id_paciente, id_dentista, datahora, descricao) VALUES
 
 ----------------Comandos-----------------------
 
+
+------------------SQL de dois índices coerentes------------
+
+
+-- Índice para melhorar a performance da busca de consultas por dentista
+CREATE INDEX idx_consulta_dentista ON consulta (id_dentista, datahora);
+
+select * from consulta where id_paciente = 5;
+
+-- Índice para otimizar a contagem de consultas por especialidade
+CREATE INDEX idx_dentista_especialidade ON dentista (especialidade);
+
+select * from consulta order by datahora desc limit 10;
+
+------------------SQL de dois índices coerentes;------------
+
+
 ------------------SQL de 3 atualizações de registros com condições em alguma tabela.------------
 
 
