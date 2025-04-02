@@ -1,12 +1,5 @@
 # Sistema de Gestão para Clínica Odontológica
 
-#### Pedro Henrique da Silva Cler
-#### Lucas Rispoli Delgado
-#### Anna May Duarte Atkinson
-#### Eduarda Christinne Sousa Azevedo
-#### Leandro José De Freitas
-
-
 Este projeto foi desenvolvido como parte da disciplina de Banco de Dados e tem como objetivo informatizar o atendimento e a gestão de pacientes em uma clínica odontológica. O sistema permite o agendamento de consultas, registro de atendimentos e controle de profissionais e pacientes, garantindo um gerenciamento eficiente e organizado das informações.
 
 ## Requisitos do Sistema
@@ -74,3 +67,10 @@ O script completo com a criação do banco de dados, inserção de dados, índic
 
 Contribuições são bem-vindas! Para reportar problemas ou sugerir melhorias, abra uma issue no repositório.
 
+## Equipe
+
+#### Pedro Henrique da Silva Cler
+#### Lucas Rispoli Delgado
+#### Anna May Duarte Atkinson
+#### Eduarda Christinne Sousa Azevedo
+#### Leandro José De Freitas
