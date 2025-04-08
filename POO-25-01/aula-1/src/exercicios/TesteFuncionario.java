@@ -4,14 +4,10 @@ public class TesteFuncionario {
 
 	public static void main(String[] args) {
 
-		Funcionario f1 = new Funcionario("A", 5000);
-		Funcionario f2 = new Funcionario("B", 00);
-		Funcionario f3 = new Funcionario("B", 00);
-		Funcionario f4 = new Funcionario("B", 00);
+		Funcionario f1 = new Funcionario("A", 3000);
 
-	
-		System.out.println(f1.getNome());
-		System.out.println("Total geral funcionários: " + Funcionario.getContador());
+
+		System.out.println("Nome: " + f1.getNome() + "\n Salário: " + f1.getSalario() + "\n INSS: " + f1.calcularInss() + "\n Vale Transporte: " + f1.calcularValeTransporte() + "\n Salário Liquido: " + f1.calcularSalarioLiquido());
 	}
 
 }

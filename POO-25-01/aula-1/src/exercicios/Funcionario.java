@@ -25,4 +25,17 @@ public class Funcionario {
 	public static int getContador() {
 		return contador;
 	}
+	
+	public double calcularInss() {
+		return salario*0.11;
+	}
+	
+	public double calcularValeTransporte() {
+		return salario*0.06;
+	}
+	
+	public double calcularSalarioLiquido() {
+		return salario-(salario*0.06+salario*0.11);
+	}
+	
 }
