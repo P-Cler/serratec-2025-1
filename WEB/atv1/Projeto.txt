@@ -1,0 +1,53 @@
+Integrantes:
+
+Pedro Henrique da Silva Cler
+Maxwel Robson da Silva Gangorra
+José Augusto dos Santos Junior
+Geovani Rodrigues dos Santos
+Taiane Oliveira de Albuquerque
+
+1. INTRODUÇÃO
+A Secretaria de Turismo de Petrópolis deseja um website para divulgar os principais
+atrativos turísticos da cidade, destacando suas regiões, pontos históricos, gastronomia e
+cultura.
+Objetivo:
+Criar um website informativo sobre o turismo em Petrópolis, estruturado de forma intuitiva
+para facilitar o acesso às informações sobre a cidade.
+
+2. INSTRUÇÕES
+Escolher imagens na internet para o site. Você desenvolverá a programação necessária ao
+seu correto funcionamento e interpretação nos navegadores mais comumente utilizados
+pelos usuários (Chrome e Microsoft Edge).
+3. REQUISITOS DO PROJETO
+Estrutura do Website:
+1. Página Principal (Home):
+Na seção da home Page deve apresentar somente a imagem, o título e subtítulo
+devem aparecer (de forma animada) quando o usuário estiver com o mouse sobre a
+imagem.
+2. Criação de Menus e Guias:
+o Menu de navegação para acesso às páginas do site.
+o Guias turísticos com informações sobre atrações históricas, eventos e
+gastronomia.
+3. Área Leste e Oeste:
+o Seção dedicada a cada região da cidade, destacando pontos turísticos como:
+▪ Área Leste: Museu Imperial, Palácio de Cristal e Catedral São Pedro
+de Alcântara.
+▪ Área Oeste: Parque Nacional da Serra dos Órgãos, Cascata do Véu
+da Noiva e Fazenda Samambaia.
+▪
+4. Rodapé:
+o Informações institucionais e de contato.
+o Links para redes sociais e direitos autorais.
+
+Requisitos Técnicos:
+• O design deve ser fiel ao layout que foi pedido.
+
+• O código deve ser limpo, organizado e comentado.
+• Trabalhar com flexbox.
+• Tecnologias recomendadas: HTML e CSS
+Critérios de Avaliação:
+1. Fidelidade ao Layout – O site deve seguir o design aprovado.
+2. Navegabilidade – O menu e os guias devem ser intuitivos.
+3. Código Organizado – Estrutura clara e bem comentada.
+Entrega:
+• Enviar os arquivos HTML e CSS no github
